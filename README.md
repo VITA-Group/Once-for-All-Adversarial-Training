@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Haotao Wang, Tianlong Chen\*, Shupeng Gui, Ting-Kuei Hu, Ji Liu, Zhangyang Wang
+Haotao Wang\*, Tianlong Chen\*, Shupeng Gui, Ting-Kuei Hu, Ji Liu, Zhangyang Wang
 
 In NeurIPS 2020
 
@@ -10,6 +10,8 @@ In NeurIPS 2020
 We present a novel once-for-all adverarial training (OAT) framework that addresses a new and important goal: in-situ “free” trade-off between robustness and accuracy at testing time. In particular, we demonstrate the importance of separating standard and adversarial feature statistics, when trying to pack their learning in one model.
 
 We also extend from OAT to OATS, that enables a joint in-situ trade-off among robustness, accuracy, and the computational budget.
+
+Experimental results show that OAT/OATS achieve similar or even superior performance, when compared to traditional dedicatedly trained robust models. Our approaches meanwhile cost only one model and no re-training. In other words, they are **free but no worse**.
 
 ## Framework
 <p align="center">
